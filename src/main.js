@@ -1,0 +1,150 @@
+import './assets/main.css'
+import { createApp } from 'vue'
+import App from './App.vue'
+import 'ant-design-vue/dist/reset.css';
+import 'normalize.css'
+import {
+    Anchor,
+    Alert,
+    Avatar,
+    Badge,
+    Breadcrumb,
+    Button,
+    Card,
+    Checkbox,
+    Col,
+    Collapse,
+    Divider,
+    Icon,
+    Input,
+    Radio,
+    Row,
+    Table,
+    Tabs,
+    Tag,
+    Timeline,
+    Tooltip,
+    Drawer,
+    Modal,
+    Menu,
+    PageHeader,
+    Pagination,
+    Steps,
+    AutoComplete,
+    Cascader,
+    DatePicker,
+    Form,
+    InputNumber,
+    Mentions,
+    Rate,
+    Select,
+    Slider,
+    Switch,
+    TimePicker,
+    Transfer,
+    TreeSelect,
+    Upload,
+    Space,
+    Calendar,
+    Carousel,
+    Comment,
+    Descriptions,
+    Empty,
+    Image,
+    List,
+    Popover,
+    QRCode,
+    Segmented,
+    Statistic,
+    Tour,
+    Tree,
+    message,
+    notification,
+    Popconfirm,
+    Progress,
+    Result,
+    Skeleton,
+    Spin,
+    Affix,
+    ConfigProvider,
+    Watermark,
+    Layout,
+    LayoutHeader,
+    LayoutFooter,
+    LayoutContent,
+    LayoutSider,
+    FloatButton,
+  } from 'ant-design-vue';
+
+const app = createApp(App)
+app.use(Anchor)
+app.use(Alert)
+app.use(Avatar)
+app.use(Badge)
+app.use(Breadcrumb)
+app.use(Button)
+app.use(Card)
+app.use(Checkbox)
+app.use(Col)
+app.use(Collapse)
+app.use(Divider)
+app.use(Icon)
+app.use(Input)
+app.use(Radio)
+app.use(Row)
+app.use(Table)
+app.use(Tabs)
+app.use(Tag)
+app.use(Timeline)
+app.use(Tooltip)
+app.use(Drawer)
+app.use(Modal)
+app.use(Menu)
+app.use(PageHeader)
+app.use(Pagination)
+app.use(Steps)
+app.use(AutoComplete)
+app.use(Cascader)
+app.use(DatePicker)
+app.use(Form)
+app.use(InputNumber)
+app.use(Mentions)
+app.use(Rate)
+app.use(Select)
+app.use(Slider)
+app.use(Switch)
+app.use(TimePicker)
+app.use(Transfer)
+app.use(TreeSelect)
+app.use(Upload)
+app.use(Space)
+app.use(Calendar)
+app.use(Carousel)
+app.use(Comment)
+app.use(Descriptions)
+app.use(Empty)
+app.use(Image)
+app.use(List)
+app.use(Popover)
+app.use(QRCode)
+app.use(Segmented)
+app.use(Statistic)
+app.use(Tour)
+app.use(Tree)
+app.use(message)
+app.use(notification)
+app.use(Popconfirm)
+app.use(Progress)
+app.use(Result)
+app.use(Skeleton)
+app.use(Spin)
+app.use(Affix)
+app.use(ConfigProvider)
+app.use(Watermark)
+app.use(Layout)
+app.use(LayoutHeader)
+app.use(LayoutFooter)
+app.use(LayoutContent)
+app.use(LayoutSider)
+app.use(FloatButton)
+app.mount('#app')

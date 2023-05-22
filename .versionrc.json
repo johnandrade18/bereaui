@@ -1,0 +1,36 @@
+{
+    "releaseCommitMessageFormat": "chore(release): {{currentTag}} [skip ci]",
+    "types": [{
+            "type": "feature",
+            "section": "Features"
+        },
+        {
+            "type": "fixture",
+            "section": "Bug Fixes"
+        },
+        {
+            "type": "chore",
+            "section": "Chores"
+        },
+        {
+            "type": "docs",
+            "section": "Documentation"
+        },
+        {
+            "type": "style",
+            "section": "Styles"
+        },
+        {
+            "type": "refactor",
+            "section": "Code Refactoring"
+        },
+        {
+            "type": "performace",
+            "section": "Performance Improvements"
+        },
+        {
+            "type": "test",
+            "section": "Tests"
+        }
+    ]
+}

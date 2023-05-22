@@ -1,0 +1,1 @@
+export { default as BeButton } from './components/Button/BereaUIButton.vue'
